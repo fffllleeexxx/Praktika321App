@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bda4a16036184023b5d3a8343ff5752f" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.Academics" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Bid" Width="1.5" PointX="7.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.cathedra" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Cathedra_Manager" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Countries" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Disciple" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Employee" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Engeneer" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Exam" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.faculty" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Specialization" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Student" Width="1.5" PointX="7.5" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Teacher" Width="1.5" PointX="7.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Ученики" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Bid_Disciple" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Bid_Specialization" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Disciple_Cathedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Employee_Cathedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Faculty_Cathedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Specialization_cathedra" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Exam_Disciple" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Exam_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Exam_Teacher" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Student_Specialization" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

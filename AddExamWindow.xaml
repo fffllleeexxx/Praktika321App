@@ -1,0 +1,28 @@
+﻿<Window x:Class="Praktika321App.AddExamWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktika321App"
+        mc:Ignorable="d"
+        Title="AddExamWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" Margin="20">
+            <TextBlock Text="ID Exam"/>
+            <TextBox x:Name="IDExamTextBox"/>
+            <TextBlock Text="Date"/>
+            <DatePicker x:Name="DatePicker"/>
+            <TextBlock Text="Disciple"/>
+            <TextBox x:Name="DiscipleTextBox"/>
+            <TextBlock Text="Reg Number"/>
+            <TextBox x:Name="RegNumberTextBox"/>
+            <TextBlock Text="Teacher"/>
+            <TextBox x:Name="TeacherTextBox"/>
+            <TextBlock Text="Room"/>
+            <TextBox x:Name="RoomTextBox"/>
+            <TextBlock Text="Grade"/>
+            <TextBox x:Name="GradeTextBox"/>
+            <Button Content="Add" Click="AddButton_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
